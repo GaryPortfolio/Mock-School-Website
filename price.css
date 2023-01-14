@@ -1,0 +1,95 @@
+/* website header format */
+header {
+    background-color: #e2e2e2;
+    float: left;
+    width: 100%;
+}
+
+nav{
+    display: inline;
+    text-align: right;
+    margin: 3%;
+    font-size: 150%;
+    float: right;
+    word-spacing: 30px;
+}
+
+/* dont add space between two words in the nav bar */
+#space{
+    word-spacing: 0px;
+}
+/* star icons */
+i{
+    color: #FFFF00;
+}
+
+body{
+    /* background-color: #ffe4c4; */
+    margin: 0px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pricesBanner{
+    height: 250px;
+    width: 100%;
+    clear: both;
+}
+
+.pricesBanner img{
+    height: 250px;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.pricesBanner h1{
+    color:  #03eef1;
+    text-align: center;
+    font-size: 500%;
+    border: 9px solid white;
+    padding: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    transform:translateY(-275px);
+}
+
+/* prices chart formatting */
+.priceChart{
+    margin: 5% auto;
+    font-size: 220%;
+    text-align: center;
+    width: 70%;
+}
+
+table, th, tr{
+    border: none;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 20px;
+    margin: 0% 15%;
+    padding: 8px;
+}
+
+th p{
+    font-size: 70%;
+    line-height: 1%;
+}
+
+.FAQs{
+    margin: 5% 20%;
+}
+
+.FAQs h1{
+    font-size: 250%;
+}
+
+summary{
+    font-size: 150%;
+    line-height: 180%;
+}
+
+p{
+    margin-left: 10%;
+    font-size: 130%;
+}

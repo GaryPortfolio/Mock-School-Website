@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>vTuber Academy | Home</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Company logo" width="10%"/></a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <i class="fa fa-star"></i>
+
+                <a href="staff.html">Staff</a>
+                <i class="fa fa-star"></i>
+
+                <a href="price.html">Pricing</a>
+                <i class="fa fa-star"></i>
+
+                <a href="contact.html" id="space">Contact Us</a>
+            </nav>
+        </header>
+        
+        <section class = "backgroundBlurred">
+            <div class="imageBlur">
+                <!--source: https://youtu.be/2THs99qG1Xc?t=2202 -->
+                <img src="images/modelcreation.png"/>
+            </div>
+            <div class="imageBlur">
+                <!--source: https://youtu.be/KrNFNsEPSfU?t=9289 -->
+                <img src="images/gaming.png"/>
+            </div>
+            <div class="imageBlur">
+                <!--source: https://pbs.twimg.com/media/FFlremtWUAUhxLk?format=jpg&name=4096x4096 -->
+                <img src="images/vtuberassets.jpg"/>
+            </div>
+        </section>
+        <section class="carouselImage">
+            <div class="images">
+                <!--source: https://youtu.be/2THs99qG1Xc?t=2202 -->
+                <img src="images/modelcreation.png" alt="Model Creation in Blendr"/>
+            </div>
+
+            <div class="images">
+                <!--source: https://youtu.be/KrNFNsEPSfU?t=9289 -->
+                <img src="images/gaming.png" alt="Valorant match"/>
+            </div>
+
+            <div class="images">
+                <!--source: https://pbs.twimg.com/media/FFlremtWUAUhxLk?format=jpg&name=4096x4096 -->
+                <img src="images/vtuberassets.jpg" alt="Assets Christmas edition"/>
+            </div>
+
+            <!-- previous button -->
+            <button class="previous" onclick="moveSlide(-1)"> &#8249; </button>
+            <!-- next button -->
+            <button class="next" onclick="moveSlide(1)"> &#8250; </button>
+        </section>
+
+        <!-- Javascript code to make slideshow operate -->
+        <script src="carousel.js"></script>
+
+        <section>
+            <h1>Our Mission</h1>
+            <p>We strive to aid and realize the dreams of future vTubing content creators!</p>
+        </section>
+
+        <section>
+            <h1>Programs Offered:</h1>
+            <ul>
+                <li>Model Creation (2D/3D)</li>
+                <li>Voice Acting</li>
+                <li>Gaming</li>
+                <li>Videography</li>
+                <li id="pItalics">and many more...</li>
+            </ul>
+        </section>
+
+        <section class="userReviews">
+            <h1>User Reviews</h1>
+            <p>How was your experience during your time in our academy?</p>
+            <button type="button">Write a Review</button>
+        </section>
+
+        <hr>
+        <footer>
+           *DISCLAIMER: This is not a real site, just an idea I want to have fun with
+        </footer>
+    </body>
+</html>
